@@ -16,6 +16,9 @@ group :development, :test do
   gem 'guard-spork', '1.2.0'
   gem 'childprocess', '0.3.6'
   gem 'spork', '0.9.2'
+  gem 'pry-rails'
+  gem 'pry-doc'
+  gem 'awesome_print'
 end
 
 group :production do
